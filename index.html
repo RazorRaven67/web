@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vladimir Krupnov</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; background-color: #f2f2f2; color: #111; }
+    .container { display: flex; height: 100vh; max-width: 1200px; margin: auto; background: #fff; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    .left, .right { flex: 1; }
+    .left { padding: 3rem; display: flex; flex-direction: column; justify-content: center; }
+    .left h1 { font-size: 2.5rem; letter-spacing: 2px; }
+    .left h2 { font-size: 1rem; font-weight: normal; color: #666; margin: 1rem 0; letter-spacing: 1px; }
+    .left p { margin: 1.5rem 0; font-size: 1rem; line-height: 1.6; }
+    .buttons a { display: inline-block; margin-right: 1rem; margin-top: 1rem; padding: 0.5rem 1.2rem; border: 1px solid #111; text-decoration: none; color: #111; font-size: 0.9rem; letter-spacing: 1px; }
+    .buttons a:hover { background-color: #111; color: #fff; }
+    .socials { margin-top: 2rem; }
+    .socials a { margin-right: 1rem; text-decoration: none; font-size: 1.2rem; color: #666; }
+    .email { margin-top: 1rem; font-size: 0.95rem; color: #333; }
+    .right { background-color: #eaeaea; }
+    section.split { display: flex; flex-direction: row; max-width: 1200px; margin: 4rem auto; background: #fff; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    .img-side { flex: 1; background-size: cover; background-position: center; min-height: 400px; }
+    .text-side { flex: 1; padding: 3rem; display: flex; flex-direction: column; justify-content: center; }
+    .text-side h2 { font-size: 1.5rem; letter-spacing: 3px; margin-bottom: 1rem; }
+    .text-side p, .text-side ul { font-size: 1rem; line-height: 1.6; margin-bottom: 1rem; }
+    .text-side a { color: #007acc; text-decoration: none; }
+    .back-button { margin-top: 1rem; display: inline-block; border: 1px solid #111; padding: 0.4rem 1rem; text-decoration: none; color: #111; font-size: 0.9rem; letter-spacing: 1px; }
+    .back-button:hover { background-color: #111; color: #fff; }
+    section.talks { max-width: 1000px; margin: 4rem auto; padding: 2rem; background: #fff; box-shadow: 0 0 10px rgba(0,0,0,0.05); }
+    section.talks h2 { font-size: 1.5rem; letter-spacing: 3px; margin-bottom: 1rem; }
+    section.talks ul { padding-left: 1.2rem; }
+    section.talks li { margin-bottom: 0.6rem; }
+    @media(max-width: 900px) {
+      .container, section.split { flex-direction: column; }
+      .img-side { height: 300px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <h1>Vladimir Krupnov</h1>
+      <h2>Building Scalable Threat Intelligence Programs</h2>
+      <p>I help companies build intelligence functions that are timely, actionable, and aligned with real business risk — from choosing the right tools and technologies to creating scalable playbooks and processes.</p>
+      <div class="buttons">
+        <a href="#work">WORK</a>
+        <a href="#about">ABOUT</a>
+        <a href="#talks">TALKS & EVENTS</a>
+      </div>
+      <div class="socials">
+        <a href="#">LinkedIn</a>
+      </div>
+      <div class="email">📩 vladimir@example.com</div>
+    </div>
+    <div class="right"></div>
+  </div>
+
+  <section class="split" id="work">
+    <div class="img-side" style="background-color: #eaeaea;"></div>
+    <div class="text-side">
+      <h2>WORK</h2>
+      <p>I specialize in building and scaling threat intelligence programs for global fintechs and digital-first organizations. My work focuses on cybercrime disruption and cyber threat mitigation — including brand protection, adversary tactics research, and identifying malicious infrastructure across platforms and regions. I stay ahead of fast-evolving threats like deepfakes, synthetic media, and social engineering-as-a-service operations.</p>
+      <ul>
+        <li>Lead Threat Intelligence at Revolut Group</li>
+        <li>Advisory on threat detection tech, tooling, and automation</li>
+        <li>Executive and regulatory risk reporting</li>
+        <li>Scalable intelligence workflows and enforcement actions</li>
+      </ul>
+      <a class="back-button" href="#">← BACK</a>
+    </div>
+  </section>
+
+  <section class="split" id="about">
+    <div class="img-side" style="background-color: #eaeaea;"></div>
+    <div class="text-side">
+      <h2>ABOUT</h2>
+      <p>Vladimir Krupnov is a cybersecurity professional focused on threat intelligence, OSINT, and strategic cyber risk. He builds scalable intelligence programs that ensure threats are detected early, intelligence is actionable, and response is meaningful. He also advises on the best technologies, processes, and practices to enable this.</p>
+      <p>He currently leads the threat intelligence function at Revolut Group, supporting global protection efforts through cybercrime infrastructure mapping, brand abuse disruption, and adversary behavior analysis. Vladimir studied at the University of Cambridge, where he focused on cyber intelligence, privacy, and human behavior. His background also includes private cyber intelligence consulting and digital risk protection across the UK and Europe.</p>
+      <a class="back-button" href="#">← BACK</a>
+    </div>
+  </section>
+
+  <section class="talks" id="talks">
+    <h2>TALKS & EVENTS</h2>
+    <p>Recent public speaking engagements, panels, and interviews:</p>
+    <ul>
+      <li><strong>FMLS 2023 –</strong> Executive Interview on emerging cyber threats in fintech (video)</li>
+      <li><strong>CyberTech Forum –</strong> Speaker on intelligence integration in high-growth companies</li>
+      <li><strong>Private Webinars –</strong> Ongoing sessions for executive teams and boards on AI-enhanced cybercrime</li>
+    </ul>
+  </section>
+</body>
+</html>
